@@ -31,7 +31,7 @@ This project was created to practice concurrency in Go. It processes and aggrega
 4. **Run the log analyzer**:
     ```bash
     ./log-analyzer <log_file1> <log_file2> ... <log_fileN>
-    
+    ```
     Example:
 
     ```bash
@@ -51,7 +51,7 @@ If you have three log files (`server_log1.txt`, `server_log2.txt`, and `server_l
 
 ```bash
 ./log-analyzer server_log1.txt server_log2.txt server_log3.txt
-````
+```
 ### Log File Format
 
 The log files should have each entry in the following format:
