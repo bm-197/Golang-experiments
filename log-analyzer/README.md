@@ -20,15 +20,15 @@ This project was created to practice concurrency in Go. It processes and aggrega
    ```bash
    git clone https://github.com/bm-197/log-analyzer.git
    ```
-2. **Navigate to the project directory:
+2. **Navigate to the project directory**:
     ```bash
     cd log-analyzer
     ```
-3. **Build the project:
+3. **Build the project**:
     ```bash
     go build -o log-analyzer
     ```
-4. **Run the log analyzer:
+4. **Run the log analyzer**:
     ```bash
     ./log-analyzer <log_file1> <log_file2> ... <log_fileN>
     
@@ -51,7 +51,7 @@ If you have three log files (`server_log1.txt`, `server_log2.txt`, and `server_l
 
 ```bash
 ./log-analyzer server_log1.txt server_log2.txt server_log3.txt
-
+````
 ### Log File Format
 
 The log files should have each entry in the following format:
