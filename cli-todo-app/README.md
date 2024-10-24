@@ -35,24 +35,25 @@ This project was created to practice structs, methods, functions, and data types
     ./todo [flags]
     ```
 ### Usage
-    Use the following commands to manange your to-do list
-    - **Add a task:**
+   Use the following commands to manange your to-do list
+   
+   - **Add a task:**
         ```bash
         ./todo -add "New Task"
         ```
-    - **Edit a task:**
+   - **Edit a task:**
         ```bash
         ./todo -edit 1:"Updated Task Title"
         ```
-    - **Delete a task by index:**
+   - **Delete a task by index:**
         ```bash
         ./todo -del 2
         ```
-    - **Toggle a task by index (complete/incomplete):**
+   - **Toggle a task by index (complete/incomplete):**
         ```bash
         ./todo -toggle 1
         ```
-    - **List all tasks:**
+   - **List all tasks:**
         ```bash
         ./todo -list
         ```
